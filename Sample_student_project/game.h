@@ -1,6 +1,8 @@
-// File: game.h (part of the namespace main_savitch_14)
-
-
+/**
+*
+* game.h (part of the namespace main_savitch_14)
+*
+*/
 #ifndef MAIN_SAVITCH_GAME
 #define MAIN_SAVITCH_GAME
 #include <queue>   // Provides queue<string>
@@ -30,6 +32,13 @@ protected:
 	// *******************************************************************
 	// OPTIONAL VIRTUAL FUNCTIONS (overriding these is optional)
 	// *******************************************************************
+
+	/**
+	*
+	* the display_message function
+	* const
+	* @param message a string
+	*/
 	virtual void display_message(const std::string& message) const;
 	virtual std::string get_user_move( ) const;
 	virtual who last_mover( ) const

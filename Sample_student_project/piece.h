@@ -1,8 +1,8 @@
-// Brock Ferrell
-// CS2401
-// November 23, 2015
-// Project7
-
+/**
+*
+* piece.h
+*
+*/
 #ifndef PIECE_H
 #define PIECE_H
 enum color {black, white, blank};
@@ -11,6 +11,12 @@ class piece {
 public:
 	piece() {theColor = blank;}
 
+	/**
+	*
+	* the flip function
+	* no parameters
+	*
+	*/
 	void flip()
 	{
 		if (theColor == white) {

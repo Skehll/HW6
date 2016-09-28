@@ -1,13 +1,20 @@
-// Brock Ferrell
-// CS2401
-// November 23, 2015
-// Project7
+/**
+*
+* othello.cc
+*
+*/
 
 #include "othello.h"
 
 namespace main_savitch_14
 {
 
+/**
+*
+* the display_status function
+* const
+* no parameters
+*/
 void Othello::display_status()const
 {
   cout << BLUE << "   _______ _______ _______ _______ _______ _______ _______ _______\n";

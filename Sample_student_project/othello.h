@@ -1,7 +1,8 @@
-// Brock Ferrell
-// CS2401
-// November 23, 2015
-// Project7
+/**
+*
+* othello.h
+*
+*/
 
 #ifndef OTHELLO_H
 #define OTHELLO_H
@@ -22,6 +23,12 @@ public:
 	void display_status()const;
 	int evaluate()const;
 	bool is_game_over()const;
+	/**
+	*
+	* the is_legal function
+	* const
+	* @param move a string
+	*/
 	bool is_legal(const string& move)const;
 	void make_move(const string& move);
 	void restart();
